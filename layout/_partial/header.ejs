@@ -27,7 +27,7 @@
             <%- logo.title %>
           <% } %>
           <% if (logo.title == undefined && logo.icon == undefined && logo.img == undefined) { %>
-            <%- theme.info.name.toUpperCase() %> <b><sup style='color:<%- theme.info.version.indexOf('beta') > 0 ? '#ff9800':'#3AA757' %>'><%- theme.info.version %></sup></b>
+            <%- theme.header.name %> <b><sup style='color:#3AA757'><%- theme.header.version %></sup></b>
           <% } %>
         </a>
       <% } %>
